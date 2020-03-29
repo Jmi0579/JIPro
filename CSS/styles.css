@@ -1,0 +1,186 @@
+body {
+  color: #40514;
+  margin: 0;
+  text-align: center;
+  font-family: serif;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+h1 {
+  line-height: 1;
+  font-family: 'Sacramento', serif;
+  font-size: 5.625rem; /* 100% = 16px for font. so if we want 90px in % we need to
+  do 90px/16px = 562.5%. (100% = 16px = 1em) em or % scale to page.
+  add r to em will not get effected by any font size in the parent (body) most
+  adaptible and reliable.*/
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+  top: 90px;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+span{
+  font-size: 3rem;
+  color: green;
+}
+p {
+  line-height: 2;
+}
+a {
+  color: blue;
+}
+/*div {
+  background-color: #f1fcfc;
+}*/
+
+/***********************class ******************/
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.top {
+  background-color: lightblue;
+
+}
+.middle {
+  background-color: white;
+  margin: 50px 0;
+}
+.bottom {
+  background-color: lightblue;
+  padding: 50px 0 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+.circular {
+  border-radius: 100%;
+  position: relative;
+  center: 20px;
+  height: 150px;
+}
+.html {
+  height: 6.25rem;
+  position: relative;
+  float: left;
+  margin-right: 5%;
+}
+
+.css {
+  float: right;
+  height: 6.25rem;
+  margin-left: 5%
+}
+
+.github {
+  height: 6.25rem;
+}
+.sql {
+  height: 6.25rem;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+  height: 3rem
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  top: 200px;
+  height: 2rem;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.BUTTON_MDT {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #1E62D0);
+   background-image: -moz-linear-gradient(top, #11CDD4, #1E62D0);
+   background-image: -ms-linear-gradient(top, #11CDD4, #1E62D0);
+   background-image: -o-linear-gradient(top, #11CDD4, #1E62D0);
+   background-image: linear-gradient(to bottom, #11CDD4, #1E62D0);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 20px;
+   box-shadow: 1px 1px 20px 0px #000000;
+   -webkit-box-shadow: 1px 1px 20px 0px #000000;
+   -moz-box-shadow: 1px 1px 20px 0px #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #000000 2px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_MDT:hover {
+   border: solid #000000 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #11CDD4);
+   background-image: -moz-linear-gradient(top, #1E62D0, #11CDD4);
+   background-image: -ms-linear-gradient(top, #1E62D0, #11CDD4);
+   background-image: -o-linear-gradient(top, #1E62D0, #11CDD4);
+   background-image: linear-gradient(to bottom, #1E62D0, #11CDD4);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+
+/************ test **************
+.red {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+
+}
+.blue {
+  height: 100px;
+  width: 100px;
+  background-color:blue;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+.yellow {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  position: absolute;
+
+}*/
+
+
+/************* ID's*****************/
+#p1 {
+  position: relative;
+  top: 75px;
+}
