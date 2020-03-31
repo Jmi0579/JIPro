@@ -37,7 +37,12 @@ p {
   line-height: 2;
 }
 a {
+  margin: 10px 20px;
   color: blue;
+  text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6;
 }
 /*div {
   background-color: #f1fcfc;
@@ -48,16 +53,19 @@ a {
   width: 30%;
   margin: auto;
 }
-.top {
-  background-color: lightblue;
 
+.top {
+  /* color = #06daf2 & #03010b */
+  background: rgb(6,218,242);
+  background: linear-gradient(0deg, rgba(6,218,242,1) 0%, rgba(38,100,218,1) 70%, rgba(3,1,11,1) 100%);
 }
 .middle {
   background-color: white;
   margin: 50px 0;
 }
 .bottom {
-  background-color: lightblue;
+  background: rgb(3,1,11);
+  background: linear-gradient(0deg, rgba(3,1,11,1) 0%, rgba(38,100,218,1) 30%, rgba(6,218,242,1) 100%);
   padding: 50px 0 20px;
 }
 
@@ -67,8 +75,11 @@ a {
 .circular {
   border-radius: 100%;
   position: relative;
-  center: 20px;
+  /*center: 20px;*/
   height: 150px;
+}
+.copyright {
+  color: #EAF6F6;
 }
 .html {
   height: 6.25rem;
@@ -112,7 +123,7 @@ a {
   width: 40%;
   margin: 40px auto 60px;
 }
-.BUTTON_MDT {
+/*.BUTTON_MDT {
    background: #11CDD4;
    background-image: -webkit-linear-gradient(top, #11CDD4, #1E62D0);
    background-image: -moz-linear-gradient(top, #11CDD4, #1E62D0);
@@ -150,7 +161,7 @@ a {
    -moz-border-radius: 8px;
    border-radius: 8px;
    text-decoration: none;
-}
+}*/
 
 /************ test **************
 .red {
@@ -180,7 +191,7 @@ a {
 
 
 /************* ID's*****************/
-#p1 {
+#P1 {
   position: relative;
   top: 75px;
 }
