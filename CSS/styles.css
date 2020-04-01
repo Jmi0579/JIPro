@@ -61,7 +61,7 @@ a:hover {
 .middle {
   background: rgb(6,218,242);
 background: linear-gradient(0deg, rgba(6,218,242,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 75%, rgba(6,218,242,1) 100%);
-  margin: 50px 0;
+  /*margin: 50px 0;*/
 }
 .bottom {
   background: rgb(3,1,11);
